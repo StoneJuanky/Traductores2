@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Traductores</title>
+    <!-- Bootstrap core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="styles/cover.css" rel="stylesheet">
+    <style type="text/css">
+      .oculto {
+          display: none;
+      }
+    </style>
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner" align="center">
+          <h3 class="masthead-brand">GENERADOR DE CODIGO</h3>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+
+        <div class="an row col-12">
+          <h1 class="cover-heading">Proyecto final ASM</h1>
+            <textarea type="text" id="input" class="form-control" placeholder="Introduce el texto a analizar" rows="6"></textarea>
+            <div class="col align-self-center">
+              <br>
+              <button id ="boton" class="btn btn-primary btn-lg btn-block">Analizar</button>
+            </div>
+        </div>
+
+        <div class="msj-resultado oculto" id="mensaje-resultado">
+            <span>Aceptacion</span>
+        </div>
+
+        <div class="vacio oculto" id="vacio">
+            <span>Entrada vacia</span>
+        </div>
+
+        <div class="archivo oculto" id="archivo">
+            <a href="">
+                <button type="" class="boton"></button>
+            </a>
+        </div>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Jual Carlos Portugal Pacheco</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
